@@ -43,13 +43,14 @@ function getstr($str, $exp1, $exp2)
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Plagiarism</title>
 </head>
-<body>
+<body class="bg-slate-200">
     <div class="m-auto flex justify-center">
         <div class="p-4">
             <h1 class="font-bold text-4xl">Detect Plagiarisme</h1>
             <p class="text-2lg pt-2 pb-4">Helps you to ensure the originality of a text by detecting and identifying possible plagiarisms.</p>
+            <hr class="border-gray-500 mb-6">
             <form method="POST" class="border-gray-500">
-                    <p class="pb-2 font-bold">Max 1000 Text : </br></p><input type="text" name="text" class="p-1 text-md w-full text-gray bg-gray-100 border border-gray-300"/>
+                    <p class="pb-2 font-bold">Max 1000 Text : </br></p><input type="text" name="text" class="p-1 text-md w-full text-gray bg-gray-100 border border-gray-500"/><button class="bg-slate-900 p-3 text-white font-bold rounded mt-2 text-sm  hover:bg-slate-700">Quick Search</button></input>
                     <br />
             </form>
             <p class="text-2lg font-bold pt-6">Result :</p>
